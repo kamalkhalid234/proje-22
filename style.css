@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.heider{
+    position: relative;
+    background-image: url(/proje\ 22/img/front-page-header.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+    position: static;
+    
+}
+
+.DivText{
+    color:#fff;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.DivText h1{
+    font-size: 100px;
+    letter-spacing: 4px;
+    margin-top: 14rem;
+
+}
+.DivText p{
+    font-size: 18px;
+    margin-top: 20px;
+
+}
+.a1{
+        text-decoration: none;
+        font-size: 30px;
+        margin-top:60px;
+        margin-left: -5px;
+        color: rgb(255, 255, 255);
+        border: 1px solid #fff;
+        display: inline-block;
+        height: 5rem;
+        width: 15rem;
+        padding: 1rem ;
+        box-sizing: border-box;
+        
+    }
+.a2{
+   text-decoration: none;
+    font-size: 30px;
+    margin-left: 60px;
+    color: rgb(255, 255, 255);
+    border: 1px solid #fff;
+    display: inline-block;
+    height: 5rem;
+    width: 15rem;
+    padding: 1rem ;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgb(255, 251, 0);
+    }
+.a2:hover{
+    background-color: rgb(148, 0, 227);
+}
+
+.DivLogo{
+    height: 1rem;
+    width: 2rem;
+    position: absolute;
+    top: 2rem;
+    left: 7rem;
+}
+
+.Divbar{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 600px;
+    top: 50px;
+  
+}
+
+ul {
+    flex: left;
+    text-align: right;
+}
+ ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 15px;
+    position: relative;
+}
+ ul li a{
+    color: #ffd;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+ul li a:hover{
+    color:rgb(255, 251, 0);
+}
+
+.Section1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+ .Section1 h1{
+    margin-top: 40px;
+    font-size: 50px;
+ }
+ .Section1 p{
+    margin-top: 35px;
+    font-size: 18px;
+ }
+ .Section12{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.Section12 h1{
+    margin-top: 40px;
+    font-size: 50px;
+}
+
+.Section13 img{
+    margin-top: 10rem;
+    height: 50vh;
+    width: 24.5vw;
+
+}
+
+.Section3{
+    position: relative;
+    background-image: url(/proje\ 22/img/testiomnials-background.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 90vh;
+    position: static;
+}
+.Section3 h1{
+    color: #fff;
+    font-size: 80px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+.Section3 img{
+    margin-top: 60px;
+    margin-left: 95vh;
+    border-radius: 50%;
+    height: 15vh;
+    width: 7vw;
+    
+   
+}
+.Section3 p{
+    border: 1px solid rgb(111, 5, 146);
+    background-color: rgb(111, 5, 146);
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    margin-top: 60px;
+    margin-left:50vh;
+    height: 15vh;
+    width: 50vw;
+}
+.Section4 {
+    color: black;
+    text-align: center;
+    margin-top: 100px;
+}
+.Section4 h1{
+    font-size: 40px;
+}
+.Section4 p{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+
+
+
